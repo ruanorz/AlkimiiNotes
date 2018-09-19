@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/parent_item"
+    android:layout_height="100dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginTop="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginLeft="20dp"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+        <RelativeLayout
+            android:id="@+id/rl_texts"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@+id/rl_buttons"
+            android:layout_marginRight="20dp">
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Title 1"
+                android:textColor="@color/yellow"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-thin"
+                android:transitionName="title_shared"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/tv_content"
+                android:layout_below="@+id/tv_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eros est, euismod ut turpis eu, maximus faucibus ipsum. Donec in scelerisque neque, vel blandit nulla. Nullam fringilla eros non massa luctus, id bibendum sem maximus. Nunc non ornare dui, sit amet bibendum odio. Ut auctor cursus mauris sed volutpat. Aliquam quis odio vel ipsum fermentum dignissim vel non nisl. Ut elit risus, lobortis in vehicula non, euismod vel urna. Pellentesque viverra, lectus sit amet tempus placerat, dui urna imperdiet risus, id luctus tortor ipsum in eros. Suspendisse potenti. Nulla in arcu facilisis, tincidunt lacus ut, congue lorem. Praesent sed risus sed risus imperdiet pretium sed non est. Morbi maximus, nisi sit amet egestas varius, nunc nisl varius orci, nec hendrerit sapien nunc sit amet eros. Phasellus diam sem, auctor ac nibh vel, rhoncus consequat sem. Cras ullamcorper sollicitudin elit. Sed mi magna, dictum non diam ut, tristique volutpat sem. Sed sit amet mollis ex."
+                android:textColor="@color/black"
+                android:ellipsize="end"
+                android:fontFamily="sans-serif-thin"
+                android:textSize="14sp"/>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/rl_buttons"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:gravity="center_vertical">
+            <ImageView
+                android:id="@+id/edit_btn"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:padding="10dp"
+                android:background="@drawable/button_background"
+                android:src="@drawable/edit_icon"/>
+            <ImageView
+                android:id="@+id/delete_btn"
+                android:layout_toRightOf="@+id/edit_btn"
+
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:padding="10dp"
+                android:background="@drawable/button_background_delete"
+                android:layout_marginLeft="10dp"
+                android:transitionName="basura"
+                android:src="@drawable/delete_icon"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+
+</android.support.v7.widget.CardView>
+

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "691391561193",
+    "firebase_url": "https://alkimii-c9840.firebaseio.com",
+    "project_id": "alkimii-c9840",
+    "storage_bucket": "alkimii-c9840.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:691391561193:android:eaa2170766fe9cb3",
+        "android_client_info": {
+          "package_name": "com.ruanorz.alkimii"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "691391561193-ab4sm2743e1gmvk7jvdqrrdgtcdsqo29.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2dpmyudUHtS_K9Lr_FD4n4j0m_qRkYzo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
